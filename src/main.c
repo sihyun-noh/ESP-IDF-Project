@@ -35,7 +35,7 @@ void handleEvent(Event event) {
 
 int main() {
 
-  printf("Hello, world!\n");
+  printf("Hello, world V.10!\n");
   printf("Addition result: %d\n", add(5, 3));
   handleEvent(EVENT_SELECT);   // IDLE -> SELECTION
   handleEvent(EVENT_PAY);      // SELECTION -> PAYMENT
